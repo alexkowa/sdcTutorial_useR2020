@@ -1,0 +1,23 @@
+# Title: Statistical Disclosure Control – Anonymize your Data Set with the R Package sdcMicro
+
+
+# Audience:
+The audience is expected to have sound knowledge on the application of data manipulation steps in base R as well as basic statistical knowledge, e.g., mean, median, variance, correlation, regression.
+# Instructors:
+Matthias Templ and Alexander Kowarik
+Matthias Templ (https://github.com/matthias-da, https://www.linkedin.com/in/matthias-templ-099a659/) is professor at the Zurich University of Applied Sciences.  Alexander Kowarik (https://github.com/alexkowa, https://www.linkedin.com/in/alexander-kowarik-37004ab/, https://twitter.com/alexkvienna) is head of the methods unit at Staitstics Austria, the national statistical institute of Austria.
+Both are authors of the sdcMicro R package and have experience to train R and statistical disclosure control methods on a university level as well as a professional level,e.g., in the ‘European Statistical Training Programme’. 
+
+Domain: Statistical disclosure control methods can be applied whenether disclosure risk needs to be assesed and steps to anonymize a data set are necessary, this can be, e.g., official statistics or social science.
+
+Points of appeal: ~75 words, describing what makes the proposed tutorial appealing to either audience from a broad range of backgrounds. If the tutorial content draws on examples from multiple fields/disciplines, the fields are identified and the tutorial is described in a way that is appealing to audience from those and related disciplines.
+
+Learning objectives: 100 – 200 words, describing the specific concepts and skills the audience can expect to have learned by attending the tutorial. Be sure to specify each learning objective succinctly. A well-drafted proposal would probably have 3-5 well-stated learning objectives.
+
+Computing requirements: ~50 words, describing the minimum hardware configuration and software attendees should bring to the tutorial to benefit from the hands-on exercises given during the tutorial.
+
+Teaching assistant: will you be able to identify one-two individuals who can serve as teaching assistants? Will you need the conference committee to identify volunteers who can serve as teaching assistants? What subject matter expertise should such an individual have to help with any difficulties that the attendees might face in running the code examples being demonstrated? Lesson plan: ~150 words, describing via a bulleted list, a sketch of the sequence of activities (theory/domain explanation, demonstration of code, hands-on work time, formal/informal Q+A, etc.) that the instructor expects to follow for delivering the learning experience to attendees.
+
+Expected level of audience’s R background: ~50 words, a designation of beginner, intermediate, or advanced, and a short description of expected R-related skills. Other considerations: ~ 100 words, describing any other constraints/needs the instructor might have that are relevant in delivering the learning experience to the attendees. If there are additional resources (available online) that the instructor things can help the audience to continue their learning beyond the tutorial, they can be included here, too.
+
+(Call: https://user2020.r-project.org/news/2019/09/28/call-for-tutorials/)
