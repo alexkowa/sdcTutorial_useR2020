@@ -8,26 +8,26 @@ output:
 
 ## Audience:
 
-The participants may come from any field of data science and statistics, but typically the audience consists of participants who work with any kind of personal data or who already got in touch with confidentialy and data privacy or who have a demand on data from institutions or data collectors but could not receive the data in full detail because of laws on privacy.  
+The participants may come from any field of data science and statistics, but typically the audience consists of participants who work with any kind of personal data or who already got in touch with confidentially and data privacy or who have a demand on data from institutions or data collectors but could not receive the data in full detail because of laws on privacy.  
 
 <!-- ideally -->
 <!-- The audience is expected to have sound knowledge on the application of data manipulation steps in base R as well as basic statistical knowledge, e.g., mean, median, variance, correlation, regression. -->
 
 ## Instructors:
 
-- Alexander Kowarik (https://github.com/alexkowa, https://www.linkedin.com/in/alexander-kowarik-37004ab/, https://twitter.com/alexkvienna) is head of the methods unit at Staitstics Austria, the national statistical institute of Austria.   
+- Alexander Kowarik (https://github.com/alexkowa, https://www.linkedin.com/in/alexander-kowarik-37004ab/, https://twitter.com/alexkvienna) is head of the methods unit at Statistics Austria, the national statistical institute of Austria.   
 - Matthias Templ (https://github.com/matthias-da, https://www.zhaw.ch/de/ueber-uns/person/teml/) is lecturer and researcher at the Zurich University of Applied Sciences. 
 
-Both are authors of the [sdcMicro](https://cran.r-project.org/package=sdcMicro) R package and have experience to train R and statistical disclosure control methods on a university level as well as a professional level, e.g., in the ‘European Statistical Training Programme’. 
+Both are authors of the [sdcMicro](https://cran.r-project.org/package=sdcMicro) R package and have experience to train R and statistical disclosure control methods on a university level as well as a professional level, e.g., in the ‘European Statistical Training Program’. 
 
 ## Domain and points of appeal:
 
-New technologies and research in the field of machine learning and deep learning methods and new ways of accessing, integrating and analyzing sensitive personal data increase the demand for solutions to be able to respect laws on data privacy and confidentialiy. 
+New technologies and research in the field of machine learning and deep learning methods and new ways of accessing, integrating and analyzing sensitive personal data increase the demand for solutions to be able to respect laws on data privacy and confidentiality. 
 
 Fields of applications include official statistics and social sciences, financial transactions, social network activities, location trajectories, CRM, insurance data and medical records. 
-New data protection regulations, that especially include high penalities for violating privacy, put the topic of statistical disclosure control in focus.
+New data protection regulations, that especially include high penalties for violating privacy, put the topic of statistical disclosure control in focus.
 
-Pseudo-anonymization (with salting and hasing) should not be mixed with anonymization, because it does not prevent the successful re-identification of persons, which is typically done by a combination of attributes. Statistical disclosure control includes the measurement of the re-identification risk of persons in a data set, the anonymization of data and the measurement of the information loss after anonymization. 
+Pseudo-anonymization (with salting and hashing) should not be mixed with anonymization, because it does not prevent the successful re-identification of persons, which is typically done by a combination of attributes. Statistical disclosure control includes the measurement of the re-identification risk of persons in a data set, the anonymization of data and the measurement of the information loss after anonymization. 
 After anonymization the data include no link to persons, and thus all the rules on privacy do no longer apply. 
 
 <!-- # Points of appeal:  -->
@@ -45,7 +45,7 @@ After anonymization the data include no link to persons, and thus all the rules 
 The lessons learnt will include 
 
 - the knowledge of the basic methods on estimating the re-identification risk of persons ($k$-anonymity, suda, individual and global risk), data anonymization (recoding, local suppression, pram, noise, aggregation) and estimating the data utility after anonymization;
-- the basic understanding of a data- and use-case-driven anonymisation; 
+- the basic understanding of a data- and use-case-driven anonymization; 
 - a deep understanding of the classes and methods of the sdcMicro packages. 
 
 <!-- 100 – 200 words, describing the specific concepts and skills the audience can expect to have learned by attending the tutorial. Be sure to specify each learning objective succinctly. A well-drafted proposal would probably have 3-5 well-stated learning objectives. -->
@@ -68,7 +68,7 @@ We do not need any teaching assistants.
 
 ## Lesson plan: 
 
-- We briefly explain the most popular methods on risk estimation, anonymisation and measurement of data utility. 
+- We briefly explain the most popular methods on risk estimation, anonymization and measurement of data utility. 
 - Directly after discussing a method we demonstrate it through code examples on a toy and/or complex data set. 
 - Afterwards we step back to discuss the whole workflow when anonymizing a complex data set. 
 - In the end of the tutorial there is space for hands-on code in an interactive manner and guided by the course leaders. 
@@ -89,7 +89,7 @@ Publications (selection):
 
 Resources:
 
-- sdcMicro devolopment on [github](https://github.com/sdcTools/sdcMicro)
+- sdcMicro development on [github](https://github.com/sdcTools/sdcMicro)
 - sdcMicro [stable CRAN version](https://cran.r-project.org/web/packages/sdcMicro/index.html)
 
 See also:
