@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Title: Anonymize your Data Set with the R Package sdcMicro
 
 
@@ -13,7 +18,7 @@ The participants may come from any field of data science and statistics, but typ
 - Alexander Kowarik (https://github.com/alexkowa, https://www.linkedin.com/in/alexander-kowarik-37004ab/, https://twitter.com/alexkvienna) is head of the methods unit at Staitstics Austria, the national statistical institute of Austria.   
 - Matthias Templ (https://github.com/matthias-da, https://www.zhaw.ch/de/ueber-uns/person/teml/) is lecturer and researcher at the Zurich University of Applied Sciences. 
 
-Both are authors of the [sdcMicro](https://cran.r-project.org/package=sdcMicro) R package and have experience to train R and statistical disclosure control methods on a university level as well as a professional level,e.g., in the ‘European Statistical Training Programme’. 
+Both are authors of the [sdcMicro](https://cran.r-project.org/package=sdcMicro) R package and have experience to train R and statistical disclosure control methods on a university level as well as a professional level, e.g., in the ‘European Statistical Training Programme’. 
 
 ## Domain and points of appeal:
 
@@ -54,26 +59,40 @@ There is no other special software requirements needed.
 
 ## Teaching assistant: 
 
-We briefly explain the most popular methods on risk estimation, anonymisation and measurement of data utility. After each method explained, we demonstrate a method via a code example on a complex data set. 
-Afterwards we step back to discuss the whole workflow when anonymizing a complex data set. In the end of the tutorial there is time for hands-on in an interactive manner and structured by the course leaders. Question can be raised anytime and especially in the last session on the interactive part we motivate the course participants for discussions and hands-on code.
 
-<!-- Das verstehe ich nicht recht gut: erster Teil (unten) ist doch fuer das Staff dort und der lesson plan aber wiederum fuer die participants? -->
-<!-- will you be able to identify one-two individuals who can serve as teaching assistants? Will you need the conference committee to identify volunteers who can serve as teaching assistants? What subject matter expertise should such an individual have to help with any difficulties that the attendees might face in running the code examples being demonstrated? Lesson plan: ~150 words, describing via a bulleted list, a sketch of the sequence of activities (theory/domain explanation, demonstration of code, hands-on work time, formal/informal Q+A, etc.) that the instructor expects to follow for delivering the learning experience to attendees. -->
+
+We do not need any teaching assistants. 
+
+<!-- will you be able to identify one-two individuals who can serve as teaching assistants? Will you need the conference committee to identify volunteers who can serve as teaching assistants? What subject matter expertise should such an individual have to help with any difficulties that the attendees might face in running the code examples being demonstrated? -->
+
+
+## Lesson plan: 
+
+- We briefly explain the most popular methods on risk estimation, anonymisation and measurement of data utility. 
+- Directly after discussing a method we demonstrate it through code examples on a toy and/or complex data set. 
+- Afterwards we step back to discuss the whole workflow when anonymizing a complex data set. 
+- In the end of the tutorial there is space for hands-on code in an interactive manner and guided by the course leaders. 
+
+Question can be raised anytime and especially in the last session on the interactive part we motivate the course participants for discussions and hands-on code.
 
 ## Expected level of audience’s R background:
 
 The audience is expected to have sound knowledge in data manipulation steps in base R as well as basic statistical knowledge, e.g., mean, median, variance, correlation, regression.
 
-## Further readings and documents:
+##### Further readings, resources and documents:
 
+Publications (selection):
 
-- sdcMicro devolopment [github](https://github.com/sdcTools/sdcMicro)
-- sdcMicro stable CRAN version [CRAN](https://cran.r-project.org/web/packages/sdcMicro/index.html)
-- Publication sdcMicro: [Journal of Statistical Software: sdcMicro](https://www.jstatsoft.org/article/view/v067i04)
+- Publication: [Journal of Statistical Software: sdcMicro](https://www.jstatsoft.org/article/view/v067i04)
 - Publication of a [sdc app](https://www.mdpi.com/1999-4893/12/9/191/htm)
 - Book on SDC in [Springer](https://www.springer.com/de/book/9783319502700)
 
-Prominent distributors of sdcMicro:
+Resources:
+
+- sdcMicro devolopment on [github](https://github.com/sdcTools/sdcMicro)
+- sdcMicro [stable CRAN version](https://cran.r-project.org/web/packages/sdcMicro/index.html)
+
+See also:
 
 - [International Household Survey Network](http://www.ihsn.org/software/disclosure-control-toolbox)
 - [World Bank Group](http://surveys.worldbank.org/sdcmicro)
