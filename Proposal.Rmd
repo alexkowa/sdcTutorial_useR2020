@@ -64,9 +64,9 @@ As we are two trainers splitting the lecture and both us are available during ex
 ## Lesson plan: 
 
 - We briefly explain the most popular methods on risk estimation, anonymization and measurement of data utility. 
-- Directly after discussing a method we demonstrate it through code examples on a toy and/or complex data set. 
+- Directly after discussing a method we demonstrate it as a code examples on a toy and/or complex data set. The audience will have the chance to follow these steps interactively on their own computers.
 - Afterwards we step back to discuss the whole workflow when anonymizing a complex data set. 
-- In the end of the tutorial there is space for hands-on code in an interactive manner and guided by the course leaders. 
+- In the end of the tutorial we will create an anoymized data set from a example data in an interactive manner and guided by the course leaders. 
 
 Question can be raised anytime and especially in the last session on the interactive part we motivate the course participants for discussions and hands-on code.
 
