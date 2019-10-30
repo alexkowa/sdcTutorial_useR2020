@@ -1,7 +1,5 @@
 ---
-output:
-  html_document: default
-  pdf_document: default
+output: pdf_document
 ---
 # Title: Anonymize your Data Set with the R Package sdcMicro
 
@@ -52,16 +50,13 @@ The lessons learnt will include
 
 ## Computing requirements:
 
-Please install the [sdcMicro](https://cran.r-project.org/package=sdcMicro) package prior to the tutorial. 
-There is no other special software requirements needed. 
+The most recent published version of [sdcMicro](https://cran.r-project.org/package=sdcMicro) in a recent R version is the only requirement. We will work with example data of reasonable size, so runtime will be short on a regular laptop computer.
 
 <!-- ~50 words, describing the minimum hardware configuration and software attendees should bring to the tutorial to benefit from the hands-on exercises given during the tutorial. -->
 
 ## Teaching assistant: 
 
-
-
-We do not need any teaching assistants. 
+As we are two trainers splitting the lecture and both us are available during exercises, we do not need any teaching assistants. 
 
 <!-- will you be able to identify one-two individuals who can serve as teaching assistants? Will you need the conference committee to identify volunteers who can serve as teaching assistants? What subject matter expertise should such an individual have to help with any difficulties that the attendees might face in running the code examples being demonstrated? -->
 
@@ -84,7 +79,7 @@ The audience is expected to have sound knowledge in data manipulation steps in b
 Publications (selection):
 
 - Publication: [Journal of Statistical Software: sdcMicro](https://www.jstatsoft.org/article/view/v067i04)
-- Publication of a [sdc app](https://www.mdpi.com/1999-4893/12/9/191/htm)
+- Publication about [sdc app](https://www.mdpi.com/1999-4893/12/9/191/htm) and a [online test version](https://sdctools.shinyapps.io/sdcapp/).
 - Book on SDC in [Springer](https://www.springer.com/de/book/9783319502700)
 
 Resources:
