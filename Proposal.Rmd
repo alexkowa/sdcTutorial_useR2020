@@ -1,12 +1,18 @@
 ---
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 # Title: Anonymize your Data Set with the R Package sdcMicro
 
 
 ## Audience:
 
-The participants may come from any field of data science and statistics, but typically the audience consists of participants who work with any kind of personal data or who already got in touch with confidentiality and data privacy or who have a demand on data from institutions or data collectors but could not receive the data in full detail because of laws on privacy.  
+The participants may come from any field of data science and statistics, but typically the audience consists of participants who
+
+- work with any kind of personal data or 
+- already got in touch with confidentiality and data privacy or 
+- have a demand on data from institutions or data collectors but could not receive the data in full detail because of laws on privacy.  
 
 <!-- ideally -->
 <!-- The audience is expected to have sound knowledge on the application of data manipulation steps in base R as well as basic statistical knowledge, e.g., mean, median, variance, correlation, regression. -->
@@ -44,7 +50,7 @@ The lessons learnt will include
 
 - the knowledge of the basic methods on estimating the re-identification risk of persons ($k$-anonymity, suda, individual and global risk), data anonymization (recoding, local suppression, pram, noise, aggregation) and estimating the data utility after anonymization;
 - the basic understanding of a data- and use-case-driven anonymization; 
-- a deep understanding of the classes and methods of the sdcMicro packages. 
+- a deep understanding of the classes and methods of the sdcMicro package. 
 
 <!-- 100 – 200 words, describing the specific concepts and skills the audience can expect to have learned by attending the tutorial. Be sure to specify each learning objective succinctly. A well-drafted proposal would probably have 3-5 well-stated learning objectives. -->
 
