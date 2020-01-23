@@ -1,7 +1,6 @@
 ---
 output:
-  html_document:
-    df_print: paged
+  pdf_document
 ---
 # Title: Anonymize your Data Set with the R Package sdcMicro
 
@@ -21,13 +20,15 @@ The participants may come from any field of data science and statistics, but typ
 
 - Alexander Kowarik (https://github.com/alexkowa, https://www.linkedin.com/in/alexander-kowarik-37004ab/, https://twitter.com/alexkvienna) is head of the methods unit at Statistics Austria, the national statistical institute of Austria.   
 - Matthias Templ (https://github.com/matthias-da, https://www.zhaw.ch/de/ueber-uns/person/teml/) is lecturer and researcher at the Zurich University of Applied Sciences. 
-
+<!-- 
 Both are authors of the [sdcMicro](https://cran.r-project.org/package=sdcMicro) R package and have experience to train R and statistical disclosure control methods on a university level as well as a professional level, e.g., in the ‘European Statistical Training Program’. 
+-->
 
 ## Domain and points of appeal:
 
+<!-- 
 New technologies and research in the field of machine learning and deep learning methods and new ways of accessing, integrating and analyzing sensitive personal data increase the demand for solutions to be able to respect laws on data privacy and confidentiality. 
-
+-->
 Fields of applications include official statistics and social sciences, financial transactions, social network activities, location trajectories, CRM, insurance data and medical records. 
 New data protection regulations, that especially include high penalties for violating privacy, put the topic of statistical disclosure control in focus.
 
@@ -39,9 +40,9 @@ After anonymization the data include no link to persons, and thus all the rules 
 <!-- ~75 words, describing what makes the proposed tutorial appealing to either audience from a broad range of backgrounds. If the tutorial content draws on examples from multiple fields/disciplines, the fields are identified and the tutorial is described in a way that is appealing to audience from those and related disciplines. -->
 
 
-
+<!--
 ## Learning objectives:
-
+-->
 <!-- The aim is to get a deep understanding of the classes and methods of the sdcMicro packages.  -->
 <!-- Various popular methods are first explained and applied on complex data sets. -->
 <!-- Afterwards we step back to discuss the whole workflow when anonymizing a complex data set. Interactively, together with the audience, we will anonymize one data set and show the results on risk and utility.   -->
@@ -50,23 +51,24 @@ The lessons learnt will include
 
 - the knowledge of the basic methods on estimating the re-identification risk of persons ($k$-anonymity, suda, individual and global risk), data anonymization (recoding, local suppression, pram, noise, aggregation) and estimating the data utility after anonymization;
 - the basic understanding of a data- and use-case-driven anonymization; 
-- a deep understanding of the classes and methods of the sdcMicro package. 
+<!-- - a deep understanding of the classes and methods of the sdcMicro package. -->
 
 <!-- 100 – 200 words, describing the specific concepts and skills the audience can expect to have learned by attending the tutorial. Be sure to specify each learning objective succinctly. A well-drafted proposal would probably have 3-5 well-stated learning objectives. -->
 
+<!--
 ## Computing requirements:
 
-The most recent published version of [sdcMicro](https://cran.r-project.org/package=sdcMicro) in a recent R version is the only requirement. We will work with example data of reasonable size, so runtime will be short on a regular laptop computer.
-
+The most recent published version of [sdcMicro](https://cran.r-project.org/package=sdcMicro) in a recent R version is the only requirement. We will work with example data of reasonable size, so run-time will be short on a regular laptop computer.
+-->
 <!-- ~50 words, describing the minimum hardware configuration and software attendees should bring to the tutorial to benefit from the hands-on exercises given during the tutorial. -->
-
+<!-- 
 ## Teaching assistant: 
 
 As we are two trainers splitting the lecture and both us are available during exercises, we do not need any teaching assistants. 
 
-<!-- will you be able to identify one-two individuals who can serve as teaching assistants? Will you need the conference committee to identify volunteers who can serve as teaching assistants? What subject matter expertise should such an individual have to help with any difficulties that the attendees might face in running the code examples being demonstrated? -->
+ will you be able to identify one-two individuals who can serve as teaching assistants? Will you need the conference committee to identify volunteers who can serve as teaching assistants? What subject matter expertise should such an individual have to help with any difficulties that the attendees might face in running the code examples being demonstrated? -->
 
-
+<!--
 ## Lesson plan: 
 
 - We briefly explain the most popular methods on risk estimation, anonymization and measurement of data utility. 
@@ -75,29 +77,23 @@ As we are two trainers splitting the lecture and both us are available during ex
 - In the end of the tutorial we will create an anoymized data set from a example data in an interactive manner and guided by the course leaders. 
 
 Question can be raised anytime and especially in the last session on the interactive part we motivate the course participants for discussions and hands-on code.
-
+-->
 ## Expected level of audience’s R background:
 
 The audience is expected to have sound knowledge in data manipulation steps in base R as well as basic statistical knowledge, e.g., mean, median, variance, correlation, regression.
 
 ##### Further readings, resources and documents:
 
-Publications (selection):
-
-- Publication: [Journal of Statistical Software: sdcMicro](https://www.jstatsoft.org/article/view/v067i04)
-- Publication about [sdc app](https://www.mdpi.com/1999-4893/12/9/191/htm) and a [online test version](https://sdctools.shinyapps.io/sdcapp/).
+- [Journal of Statistical Software: sdcMicro](https://www.jstatsoft.org/article/view/v067i04),[sdc app](https://www.mdpi.com/1999-4893/12/9/191/htm) and a [online test version](https://sdctools.shinyapps.io/sdcapp/)
 - Book on SDC in [Springer](https://www.springer.com/de/book/9783319502700)
 
-Resources:
-
-- sdcMicro development on [github](https://github.com/sdcTools/sdcMicro)
-- sdcMicro [stable CRAN version](https://cran.r-project.org/web/packages/sdcMicro/index.html)
-
+- sdcMicro: [github](https://github.com/sdcTools/sdcMicro) and [stable CRAN version](https://cran.r-project.org/web/packages/sdcMicro/index.html)
+<!-- 
 See also:
 
 - [International Household Survey Network](http://www.ihsn.org/software/disclosure-control-toolbox)
 - [World Bank Group](http://surveys.worldbank.org/sdcmicro)
-
+-->
 
 <!-- ~50 words, a designation of beginner, intermediate, or advanced, and a short description of expected R-related skills. Other considerations:  ~ 100 words, describing any other constraints/needs the instructor might have that are relevant in delivering the learning experience to the attendees. If there are additional resources (available online) that the instructor things can help the audience to continue their learning beyond the tutorial, they can be included here, too. -->
 
